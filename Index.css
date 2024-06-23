@@ -1,11 +1,42 @@
-*{}
+*{
+    margin: 0;
+    padding: 0;
+}
 
-body{}
+body{
+    background-color: grey;
+}
 
-header{}
+header{
+    background-color: greenyellow;
+}
 
-    nav{}
+    nav{
+        background-color: red;
+        /* position: relative; */
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-main{}
+        ul{}
 
-footer{}
+            li{
+                list-style-type: none;
+            
+            }
+
+            nav a{
+                text-decoration: none;
+                color: black;
+            }
+
+main{
+    background-color: aqua;
+}
+
+footer{
+    background-color: blueviolet;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
